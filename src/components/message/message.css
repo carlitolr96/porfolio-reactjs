@@ -1,0 +1,29 @@
+.message__container {
+    background: linear-gradient(to bottom, var(--color-bg), #000 50%, var(--color-bg) );
+    display: grid;
+    place-content: center;
+    /* min-height: 100vh; */
+}
+
+.message__container h1 {
+    font-size: 5rem;
+    font-weight: 800;
+    letter-spacing: -.06em;
+    text-align: center;
+    margin: 0 0 16px;
+}
+
+h1 {
+    color: #fff;
+    display: block;
+    line-height: 1.1;
+    position: relative;
+}
+  
+/* ======================== MEDIA QUERIES (SMALL DEVICES) ========================= */
+@media screen and (max-width: 600px) {
+    h1.message__title {
+        font-size: 20px !important;
+    }
+}
+  
